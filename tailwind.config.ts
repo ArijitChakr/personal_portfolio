@@ -9,8 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "var(--primary-color)",
+        foreground: "var(--secondary-color)",
+        border: "var(--border-color)",
+      },
+      fontFamily: {
+        manrope: "var(--font-family)",
       },
     },
   },
